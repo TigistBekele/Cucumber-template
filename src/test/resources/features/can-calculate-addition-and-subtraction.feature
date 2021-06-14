@@ -1,7 +1,10 @@
 #Author: mwalsh@qa.com
 
-Feature: Can calculate addition and subtraction correctly?
-  To test whether addition and subtraction return the correct
+#As a user, I want to multiple two numbers to find the result.
+#As a user, I want to divide two numbers for use in another calculator.
+
+Feature: Can calculate addition,subtraction, multiplication and division correctly?
+  To test whether addition, subtraction,multiplication and division return the correct
   results.
 
   Scenario: 3 add 4 is 7
