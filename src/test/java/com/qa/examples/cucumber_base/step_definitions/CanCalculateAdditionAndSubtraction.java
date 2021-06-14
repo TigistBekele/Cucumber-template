@@ -28,8 +28,17 @@ public class CanCalculateAdditionAndSubtraction {
 	    actualResult = calculator.subtract(num2, num1);
 	}
 	
+	@When("{int} and {int} are multiplied")
+	public void andAreMultipliedby(Integer num1, Integer num2) {
+	    actualResult = calculator.multiply(num2, num1);
+	}
+	@When("{int} is divided by {int}")
+	public void isDividedby(Integer num1, Integer num2) {
+	    actualResult = calculator.divide(num2, num1);
+	}
 	@Then("the result should be {int}")
 	public void theResultShouldBe(Integer expectedResult) {
-	    assertEquals(expectedResult.doubleValue(), actualResult, 2);
+	    assertEquals(expectedResult.doubleValue(), actualResult, 4);
 	}
+
 }
