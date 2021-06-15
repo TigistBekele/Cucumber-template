@@ -3,9 +3,9 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2021-06-15T12:43:49.166Z",
-        "line": 20,
-        "name": "3.0 add 4.0 is 7.0",
+        "start_timestamp": "2021-06-15T22:16:32.415Z",
+        "line": 19,
+        "name": "10.0 add 4.0 is 14.0",
         "description": "",
         "id": "can-calculate-numbers-correctly?;\u003cleft-operand\u003e-add-\u003cright-operand\u003e-is-\u003cexpected-result\u003e;;2",
         "type": "scenario",
@@ -13,10 +13,10 @@
         "steps": [
           {
             "result": {
-              "duration": 999500,
+              "duration": 1995000,
               "status": "passed"
             },
-            "line": 14,
+            "line": 13,
             "name": "a calculator",
             "match": {
               "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.aCalculator()"
@@ -25,20 +25,20 @@
           },
           {
             "result": {
-              "duration": 1001000,
+              "duration": 1016700,
               "status": "passed"
             },
-            "line": 15,
-            "name": "3.0 and 4.0 are added",
+            "line": 14,
+            "name": "10.0 and 4.0 are added",
             "match": {
               "arguments": [
                 {
-                  "val": "3.0",
+                  "val": "10.0",
                   "offset": 0
                 },
                 {
                   "val": "4.0",
-                  "offset": 8
+                  "offset": 9
                 }
               ],
               "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.andAreAdded(java.lang.Double,java.lang.Double)"
@@ -47,15 +47,15 @@
           },
           {
             "result": {
-              "duration": 1000700,
+              "duration": 1994800,
               "status": "passed"
             },
-            "line": 16,
-            "name": "the result should be 7.0",
+            "line": 15,
+            "name": "the result should be 14.0",
             "match": {
               "arguments": [
                 {
-                  "val": "7.0",
+                  "val": "14.0",
                   "offset": 21
                 }
               ],
@@ -66,9 +66,9 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-15T12:43:49.231Z",
-        "line": 21,
-        "name": "89.0 add 9.0 is 98.0",
+        "start_timestamp": "2021-06-15T22:16:32.609Z",
+        "line": 20,
+        "name": "90.0 add 9.0 is 99.0",
         "description": "",
         "id": "can-calculate-numbers-correctly?;\u003cleft-operand\u003e-add-\u003cright-operand\u003e-is-\u003cexpected-result\u003e;;3",
         "type": "scenario",
@@ -76,9 +76,10 @@
         "steps": [
           {
             "result": {
+              "duration": 984500,
               "status": "passed"
             },
-            "line": 14,
+            "line": 13,
             "name": "a calculator",
             "match": {
               "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.aCalculator()"
@@ -89,12 +90,12 @@
             "result": {
               "status": "passed"
             },
-            "line": 15,
-            "name": "89.0 and 9.0 are added",
+            "line": 14,
+            "name": "90.0 and 9.0 are added",
             "match": {
               "arguments": [
                 {
-                  "val": "89.0",
+                  "val": "90.0",
                   "offset": 0
                 },
                 {
@@ -108,14 +109,15 @@
           },
           {
             "result": {
+              "duration": 994100,
               "status": "passed"
             },
-            "line": 16,
-            "name": "the result should be 98.0",
+            "line": 15,
+            "name": "the result should be 99.0",
             "match": {
               "arguments": [
                 {
-                  "val": "98.0",
+                  "val": "99.0",
                   "offset": 21
                 }
               ],
@@ -126,9 +128,9 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-15T12:43:49.237Z",
-        "line": 22,
-        "name": "9.0 add 89.0 is 98.0",
+        "start_timestamp": "2021-06-15T22:16:32.629Z",
+        "line": 21,
+        "name": "9.0 add 9.0 is 18.0",
         "description": "",
         "id": "can-calculate-numbers-correctly?;\u003cleft-operand\u003e-add-\u003cright-operand\u003e-is-\u003cexpected-result\u003e;;4",
         "type": "scenario",
@@ -138,7 +140,7 @@
             "result": {
               "status": "passed"
             },
-            "line": 14,
+            "line": 13,
             "name": "a calculator",
             "match": {
               "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.aCalculator()"
@@ -147,10 +149,11 @@
           },
           {
             "result": {
+              "duration": 987900,
               "status": "passed"
             },
-            "line": 15,
-            "name": "9.0 and 89.0 are added",
+            "line": 14,
+            "name": "9.0 and 9.0 are added",
             "match": {
               "arguments": [
                 {
@@ -158,7 +161,7 @@
                   "offset": 0
                 },
                 {
-                  "val": "89.0",
+                  "val": "9.0",
                   "offset": 8
                 }
               ],
@@ -168,14 +171,15 @@
           },
           {
             "result": {
+              "duration": 997400,
               "status": "passed"
             },
-            "line": 16,
-            "name": "the result should be 98.0",
+            "line": 15,
+            "name": "the result should be 18.0",
             "match": {
               "arguments": [
                 {
-                  "val": "98.0",
+                  "val": "18.0",
                   "offset": 21
                 }
               ],
@@ -186,9 +190,9 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-15T12:43:49.242Z",
-        "line": 23,
-        "name": "0.0 add 3.0 is 3.0",
+        "start_timestamp": "2021-06-15T22:16:32.650Z",
+        "line": 22,
+        "name": "8.0 add 3.0 is 11.0",
         "description": "",
         "id": "can-calculate-numbers-correctly?;\u003cleft-operand\u003e-add-\u003cright-operand\u003e-is-\u003cexpected-result\u003e;;5",
         "type": "scenario",
@@ -196,10 +200,9 @@
         "steps": [
           {
             "result": {
-              "duration": 999400,
               "status": "passed"
             },
-            "line": 14,
+            "line": 13,
             "name": "a calculator",
             "match": {
               "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.aCalculator()"
@@ -208,14 +211,15 @@
           },
           {
             "result": {
+              "duration": 997100,
               "status": "passed"
             },
-            "line": 15,
-            "name": "0.0 and 3.0 are added",
+            "line": 14,
+            "name": "8.0 and 3.0 are added",
             "match": {
               "arguments": [
                 {
-                  "val": "0.0",
+                  "val": "8.0",
                   "offset": 0
                 },
                 {
@@ -229,14 +233,15 @@
           },
           {
             "result": {
+              "duration": 998200,
               "status": "passed"
             },
-            "line": 16,
-            "name": "the result should be 3.0",
+            "line": 15,
+            "name": "the result should be 11.0",
             "match": {
               "arguments": [
                 {
-                  "val": "3.0",
+                  "val": "11.0",
                   "offset": 21
                 }
               ],
@@ -247,9 +252,9 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-15T12:43:49.246Z",
-        "line": 24,
-        "name": "0.0 add -3.0 is -3.0",
+        "start_timestamp": "2021-06-15T22:16:32.675Z",
+        "line": 23,
+        "name": "2.0 add 3.0 is 5.0",
         "description": "",
         "id": "can-calculate-numbers-correctly?;\u003cleft-operand\u003e-add-\u003cright-operand\u003e-is-\u003cexpected-result\u003e;;6",
         "type": "scenario",
@@ -259,7 +264,7 @@
             "result": {
               "status": "passed"
             },
-            "line": 14,
+            "line": 13,
             "name": "a calculator",
             "match": {
               "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.aCalculator()"
@@ -268,18 +273,19 @@
           },
           {
             "result": {
+              "duration": 999300,
               "status": "passed"
             },
-            "line": 15,
-            "name": "0.0 and -3.0 are added",
+            "line": 14,
+            "name": "2.0 and 3.0 are added",
             "match": {
               "arguments": [
                 {
-                  "val": "0.0",
+                  "val": "2.0",
                   "offset": 0
                 },
                 {
-                  "val": "-3.0",
+                  "val": "3.0",
                   "offset": 8
                 }
               ],
@@ -289,15 +295,14 @@
           },
           {
             "result": {
-              "duration": 999800,
               "status": "passed"
             },
-            "line": 16,
-            "name": "the result should be -3.0",
+            "line": 15,
+            "name": "the result should be 5.0",
             "match": {
               "arguments": [
                 {
-                  "val": "-3.0",
+                  "val": "5.0",
                   "offset": 21
                 }
               ],
@@ -308,9 +313,9 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-15T12:43:49.251Z",
-        "line": 25,
-        "name": "2.5 add 2.5 is 5.00",
+        "start_timestamp": "2021-06-15T22:16:32.688Z",
+        "line": 24,
+        "name": "6.0 add 2.5 is 8.5",
         "description": "",
         "id": "can-calculate-numbers-correctly?;\u003cleft-operand\u003e-add-\u003cright-operand\u003e-is-\u003cexpected-result\u003e;;7",
         "type": "scenario",
@@ -318,9 +323,10 @@
         "steps": [
           {
             "result": {
+              "duration": 1994500,
               "status": "passed"
             },
-            "line": 14,
+            "line": 13,
             "name": "a calculator",
             "match": {
               "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.aCalculator()"
@@ -331,12 +337,12 @@
             "result": {
               "status": "passed"
             },
-            "line": 15,
-            "name": "2.5 and 2.5 are added",
+            "line": 14,
+            "name": "6.0 and 2.5 are added",
             "match": {
               "arguments": [
                 {
-                  "val": "2.5",
+                  "val": "6.0",
                   "offset": 0
                 },
                 {
@@ -350,10 +356,1112 @@
           },
           {
             "result": {
-              "duration": 1001100,
+              "duration": 996800,
               "status": "passed"
             },
-            "line": 16,
+            "line": 15,
+            "name": "the result should be 8.5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8.5",
+                  "offset": 21
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.theResultShouldBe(java.lang.Double)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-15T22:16:32.703Z",
+        "line": 33,
+        "name": "10.0 subtract 5.0 is 5.0",
+        "description": "",
+        "id": "can-calculate-numbers-correctly?;\u003cleft-operand\u003e-subtract-\u003cright-operand\u003e-is-\u003cexpected-result\u003e;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "a calculator",
+            "match": {
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.aCalculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 997700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "10.0 is subtract from 5.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10.0",
+                  "offset": 0
+                },
+                {
+                  "val": "5.0",
+                  "offset": 22
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.isSubtractFrom(java.lang.Double,java.lang.Double)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the result should be 5.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5.0",
+                  "offset": 21
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.theResultShouldBe(java.lang.Double)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-15T22:16:32.721Z",
+        "line": 34,
+        "name": "10.0 subtract 9.0 is 1.0",
+        "description": "",
+        "id": "can-calculate-numbers-correctly?;\u003cleft-operand\u003e-subtract-\u003cright-operand\u003e-is-\u003cexpected-result\u003e;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "a calculator",
+            "match": {
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.aCalculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 995300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "10.0 is subtract from 9.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10.0",
+                  "offset": 0
+                },
+                {
+                  "val": "9.0",
+                  "offset": 22
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.isSubtractFrom(java.lang.Double,java.lang.Double)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the result should be 1.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1.0",
+                  "offset": 21
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.theResultShouldBe(java.lang.Double)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-15T22:16:32.736Z",
+        "line": 35,
+        "name": "9.0 subtract 9.0 is 0.0",
+        "description": "",
+        "id": "can-calculate-numbers-correctly?;\u003cleft-operand\u003e-subtract-\u003cright-operand\u003e-is-\u003cexpected-result\u003e;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "a calculator",
+            "match": {
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.aCalculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "9.0 is subtract from 9.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9.0",
+                  "offset": 0
+                },
+                {
+                  "val": "9.0",
+                  "offset": 21
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.isSubtractFrom(java.lang.Double,java.lang.Double)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 987200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the result should be 0.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0.0",
+                  "offset": 21
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.theResultShouldBe(java.lang.Double)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-15T22:16:32.754Z",
+        "line": 36,
+        "name": "8.0 subtract 3.0 is 5.0",
+        "description": "",
+        "id": "can-calculate-numbers-correctly?;\u003cleft-operand\u003e-subtract-\u003cright-operand\u003e-is-\u003cexpected-result\u003e;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 998900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "a calculator",
+            "match": {
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.aCalculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "8.0 is subtract from 3.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8.0",
+                  "offset": 0
+                },
+                {
+                  "val": "3.0",
+                  "offset": 21
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.isSubtractFrom(java.lang.Double,java.lang.Double)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the result should be 5.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5.0",
+                  "offset": 21
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.theResultShouldBe(java.lang.Double)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-15T22:16:32.776Z",
+        "line": 37,
+        "name": "4.0 subtract 3.0 is 1.0",
+        "description": "",
+        "id": "can-calculate-numbers-correctly?;\u003cleft-operand\u003e-subtract-\u003cright-operand\u003e-is-\u003cexpected-result\u003e;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 957500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "a calculator",
+            "match": {
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.aCalculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "4.0 is subtract from 3.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4.0",
+                  "offset": 0
+                },
+                {
+                  "val": "3.0",
+                  "offset": 21
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.isSubtractFrom(java.lang.Double,java.lang.Double)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the result should be 1.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1.0",
+                  "offset": 21
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.theResultShouldBe(java.lang.Double)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-15T22:16:32.787Z",
+        "line": 38,
+        "name": "6.0 subtract 2.5 is 3.5",
+        "description": "",
+        "id": "can-calculate-numbers-correctly?;\u003cleft-operand\u003e-subtract-\u003cright-operand\u003e-is-\u003cexpected-result\u003e;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 996900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "a calculator",
+            "match": {
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.aCalculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "6.0 is subtract from 2.5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6.0",
+                  "offset": 0
+                },
+                {
+                  "val": "2.5",
+                  "offset": 21
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.isSubtractFrom(java.lang.Double,java.lang.Double)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the result should be 3.5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3.5",
+                  "offset": 21
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.theResultShouldBe(java.lang.Double)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-15T22:16:32.801Z",
+        "line": 46,
+        "name": "3.0 multiply 4.0 is 12.0",
+        "description": "",
+        "id": "can-calculate-numbers-correctly?;\u003cleft-operand\u003e-multiply-\u003cright-operand\u003e-is-\u003cexpected-result\u003e;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 994200,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "a calculator",
+            "match": {
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.aCalculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "3.0 and 4.0 are multiplied",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3.0",
+                  "offset": 0
+                },
+                {
+                  "val": "4.0",
+                  "offset": 8
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.isMultiplied(java.lang.Double,java.lang.Double)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "the result should be 12.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12.0",
+                  "offset": 21
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.theResultShouldBe(java.lang.Double)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-15T22:16:32.809Z",
+        "line": 47,
+        "name": "10.0 multiply 9.0 is 90.0",
+        "description": "",
+        "id": "can-calculate-numbers-correctly?;\u003cleft-operand\u003e-multiply-\u003cright-operand\u003e-is-\u003cexpected-result\u003e;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 996900,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "a calculator",
+            "match": {
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.aCalculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1025900,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "10.0 and 9.0 are multiplied",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10.0",
+                  "offset": 0
+                },
+                {
+                  "val": "9.0",
+                  "offset": 9
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.isMultiplied(java.lang.Double,java.lang.Double)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "the result should be 90.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "90.0",
+                  "offset": 21
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.theResultShouldBe(java.lang.Double)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-15T22:16:32.829Z",
+        "line": 48,
+        "name": "6.0 multiply 6.0 is 36.0",
+        "description": "",
+        "id": "can-calculate-numbers-correctly?;\u003cleft-operand\u003e-multiply-\u003cright-operand\u003e-is-\u003cexpected-result\u003e;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "a calculator",
+            "match": {
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.aCalculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 997000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "6.0 and 6.0 are multiplied",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6.0",
+                  "offset": 0
+                },
+                {
+                  "val": "6.0",
+                  "offset": 8
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.isMultiplied(java.lang.Double,java.lang.Double)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 995700,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "the result should be 36.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "36.0",
+                  "offset": 21
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.theResultShouldBe(java.lang.Double)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-15T22:16:32.846Z",
+        "line": 49,
+        "name": "12.0 multiply 2.0 is 24.0",
+        "description": "",
+        "id": "can-calculate-numbers-correctly?;\u003cleft-operand\u003e-multiply-\u003cright-operand\u003e-is-\u003cexpected-result\u003e;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 996400,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "a calculator",
+            "match": {
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.aCalculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "12.0 and 2.0 are multiplied",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12.0",
+                  "offset": 0
+                },
+                {
+                  "val": "2.0",
+                  "offset": 9
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.isMultiplied(java.lang.Double,java.lang.Double)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1008900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "the result should be 24.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "24.0",
+                  "offset": 21
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.theResultShouldBe(java.lang.Double)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-15T22:16:32.863Z",
+        "line": 50,
+        "name": "6.0 multiply -3.0 is -18.0",
+        "description": "",
+        "id": "can-calculate-numbers-correctly?;\u003cleft-operand\u003e-multiply-\u003cright-operand\u003e-is-\u003cexpected-result\u003e;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "a calculator",
+            "match": {
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.aCalculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "6.0 and -3.0 are multiplied",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6.0",
+                  "offset": 0
+                },
+                {
+                  "val": "-3.0",
+                  "offset": 8
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.isMultiplied(java.lang.Double,java.lang.Double)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "the result should be -18.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "-18.0",
+                  "offset": 21
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.theResultShouldBe(java.lang.Double)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-15T22:16:32.873Z",
+        "line": 51,
+        "name": "2.0 multiply 10.5 is 21.00",
+        "description": "",
+        "id": "can-calculate-numbers-correctly?;\u003cleft-operand\u003e-multiply-\u003cright-operand\u003e-is-\u003cexpected-result\u003e;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "a calculator",
+            "match": {
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.aCalculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "2.0 and 10.5 are multiplied",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2.0",
+                  "offset": 0
+                },
+                {
+                  "val": "10.5",
+                  "offset": 8
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.isMultiplied(java.lang.Double,java.lang.Double)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "the result should be 21.00",
+            "match": {
+              "arguments": [
+                {
+                  "val": "21.00",
+                  "offset": 21
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.theResultShouldBe(java.lang.Double)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-15T22:16:32.882Z",
+        "line": 61,
+        "name": "3.0 divide 3.0 is 1.0",
+        "description": "",
+        "id": "can-calculate-numbers-correctly?;\u003cleft-operand\u003e-divide-\u003cright-operand\u003e-is-\u003cexpected-result\u003e;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "a calculator",
+            "match": {
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.aCalculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "3.0 divided by 3.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3.0",
+                  "offset": 0
+                },
+                {
+                  "val": "3.0",
+                  "offset": 15
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.isDivided(java.lang.Double,java.lang.Double)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997900,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "the result should be 1.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1.0",
+                  "offset": 21
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.theResultShouldBe(java.lang.Double)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-15T22:16:32.903Z",
+        "line": 62,
+        "name": "90.0 divide 9.0 is 10.0",
+        "description": "",
+        "id": "can-calculate-numbers-correctly?;\u003cleft-operand\u003e-divide-\u003cright-operand\u003e-is-\u003cexpected-result\u003e;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "a calculator",
+            "match": {
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.aCalculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "90.0 divided by 9.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "90.0",
+                  "offset": 0
+                },
+                {
+                  "val": "9.0",
+                  "offset": 16
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.isDivided(java.lang.Double,java.lang.Double)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "the result should be 10.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10.0",
+                  "offset": 21
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.theResultShouldBe(java.lang.Double)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-15T22:16:32.916Z",
+        "line": 63,
+        "name": "12.0 divide 6.0 is 2.0",
+        "description": "",
+        "id": "can-calculate-numbers-correctly?;\u003cleft-operand\u003e-divide-\u003cright-operand\u003e-is-\u003cexpected-result\u003e;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "a calculator",
+            "match": {
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.aCalculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 974700,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "12.0 divided by 6.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12.0",
+                  "offset": 0
+                },
+                {
+                  "val": "6.0",
+                  "offset": 16
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.isDivided(java.lang.Double,java.lang.Double)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "the result should be 2.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2.0",
+                  "offset": 21
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.theResultShouldBe(java.lang.Double)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-15T22:16:32.924Z",
+        "line": 64,
+        "name": "6.0 divide 3.0 is 2.0",
+        "description": "",
+        "id": "can-calculate-numbers-correctly?;\u003cleft-operand\u003e-divide-\u003cright-operand\u003e-is-\u003cexpected-result\u003e;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "a calculator",
+            "match": {
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.aCalculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 998300,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "6.0 divided by 3.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6.0",
+                  "offset": 0
+                },
+                {
+                  "val": "3.0",
+                  "offset": 15
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.isDivided(java.lang.Double,java.lang.Double)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "the result should be 2.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2.0",
+                  "offset": 21
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.theResultShouldBe(java.lang.Double)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-15T22:16:32.931Z",
+        "line": 65,
+        "name": "20.0 divide 5.0 is 4.0",
+        "description": "",
+        "id": "can-calculate-numbers-correctly?;\u003cleft-operand\u003e-divide-\u003cright-operand\u003e-is-\u003cexpected-result\u003e;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 999000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "a calculator",
+            "match": {
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.aCalculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "20.0 divided by 5.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20.0",
+                  "offset": 0
+                },
+                {
+                  "val": "5.0",
+                  "offset": 16
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.isDivided(java.lang.Double,java.lang.Double)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "the result should be 4.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4.0",
+                  "offset": 21
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.theResultShouldBe(java.lang.Double)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-15T22:16:32.938Z",
+        "line": 66,
+        "name": "2.5 divide 2.5 is 5.00",
+        "description": "",
+        "id": "can-calculate-numbers-correctly?;\u003cleft-operand\u003e-divide-\u003cright-operand\u003e-is-\u003cexpected-result\u003e;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "a calculator",
+            "match": {
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.aCalculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "2.5 divided by 2.5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2.5",
+                  "offset": 0
+                },
+                {
+                  "val": "2.5",
+                  "offset": 15
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.isDivided(java.lang.Double,java.lang.Double)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997800,
+              "status": "passed"
+            },
+            "line": 57,
             "name": "the result should be 5.00",
             "match": {
               "arguments": [
